@@ -1,0 +1,41 @@
+#main-img{
+    height: 550px;
+    background-image:url('../images/group-pic.jpg');
+	background-repeat: no-repeat;
+	background-position:center center;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+#container{
+    width: 100%;
+}
+
+#events-list{
+    float:left;
+    width:65%;
+    padding-left: 40px;
+    box-sizing:border-box;
+}
+
+#events-list h1{
+    text-align:center;
+    margin-top: 0px;
+    margin-bottom:0px;
+}
+
+#events-list h2{
+    text-align: center;
+}
+
+#events-list ul{
+    list-style: none;
+}
+
+
+#facebook-feed{
+    float:right;
+    width:500px;
+    padding-right:40px;
+    box-sizing:border-box;
+}
