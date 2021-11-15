@@ -1,0 +1,26 @@
+h4 {
+    color: black;
+    text-align:center;
+}
+
+section{
+    margin-top:50px;
+    text-align:center;
+}
+.image-box{
+
+    display:inline-block;
+    width: auto;
+    border: 2px solid black;
+    margin:20px;
+}
+
+.image-box:hover{
+    border: 2px solid white;
+}
+
+.image-box:hover h4{
+    color: white
+}
+
+

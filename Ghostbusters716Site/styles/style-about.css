@@ -1,0 +1,75 @@
+#img1{
+    background-image:url('../images/about-img-1.jpg');
+	background-repeat: no-repeat;
+	background-position:center center;
+    background-size: cover;
+}
+
+#img2{
+
+    background-image:url('../images/about-img-2.jpg');
+	background-repeat: no-repeat;
+	background-position:center center;
+    background-size: cover; 
+}
+
+#img3{
+
+    background-image:url('../images/about-img-3-2.jpg');
+	background-repeat: no-repeat;
+	background-position:center center;
+    background-size: cover;
+}
+
+
+section{
+    margin-top:100px;
+}
+
+article{
+    width:50%;
+    box-sizing:border-box;
+    height:100%;
+}
+
+.right{
+    margin-right:5%;
+}
+
+.left{
+    margin-left:5%;
+}
+
+.right-text{
+    text-align:right;
+}
+
+.img-aside{
+    width:35%;
+    height: 400px;
+    box-sizing:border-box;
+    border: 2px solid red;
+
+}
+
+
+@media(max-width:1700px){
+    .left{
+         margin-left:auto;
+         margin-right:auto;
+         margin-top: 50px;
+         width:100%;
+         float: none;
+    }
+    .right{
+         margin-left:auto;
+         margin-right:auto;
+         margin-top: 50px;
+         width:100%;
+         float:none;
+    }
+
+    .img-aside{
+        height:700px;
+    }
+ }
