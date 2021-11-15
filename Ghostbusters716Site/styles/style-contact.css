@@ -1,0 +1,50 @@
+.contact-box{
+    width:50%;
+    box-sizing:border-box;  
+}
+
+#my-form{
+    padding:20px;
+    margin-top: 25px;
+}
+
+#my-form .form-group{
+    padding-bottom:15px;
+}
+
+#my-form label{
+    display:block;
+}
+
+#my-form input[type="text"], #my-form textarea{
+    padding: 8px;
+    width:60%;
+}
+
+#my-form textarea{
+    resize: vertical;
+    height: 150px;
+}
+
+.error{
+    color:red;
+}
+
+
+
+@media(max-width:1500px){
+    .left{
+         margin-left:auto;
+         margin-right:auto;
+         margin-top: 50px;
+         width:100%;
+         float: none;
+    }
+    .right{
+         margin-left:auto;
+         margin-right:auto;
+         margin-top: 50px;
+         width:100%;
+         float:none;
+    }
+ }
